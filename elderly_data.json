@@ -1,0 +1,89 @@
+[
+    {
+        "name": "Yuda Imansyah Ramadhan",
+        "age": 18,
+        "condition": "Sakit panas",
+        "medicines": [
+            {
+                "name": "paracetamol",
+                "dosage": "2",
+                "schedule": [
+                    "10:00",
+                    "10:10"
+                ],
+                "description": "dua kali sehari",
+                "with_food": true,
+                "sound_enabled": true,
+                "custom_sound": "success",
+                "history": [
+                    {
+                        "time": "10:00",
+                        "timestamp": "2025-12-17T10:01:31.735283"
+                    }
+                ]
+            },
+            {
+                "name": "diapet",
+                "dosage": "1",
+                "schedule": [
+                    "10:05"
+                ],
+                "description": "1",
+                "with_food": false,
+                "sound_enabled": false,
+                "custom_sound": "reminder",
+                "history": []
+            }
+        ],
+        "medicine_suggestions": {}
+    },
+    {
+        "name": "Din Nur Fakih",
+        "age": 20,
+        "condition": "Sakit Kepala",
+        "medicines": [
+            {
+                "name": "bodrek",
+                "dosage": "1 tablet",
+                "schedule": [
+                    "23:30"
+                ],
+                "description": "1 kali sehari",
+                "with_food": true,
+                "sound_enabled": true,
+                "custom_sound": "reminder",
+                "history": []
+            },
+            {
+                "name": "Antimo",
+                "dosage": "1",
+                "schedule": [
+                    "23:00"
+                ],
+                "description": "1 kali sehari",
+                "with_food": true,
+                "sound_enabled": true,
+                "custom_sound": "reminder",
+                "history": []
+            }
+        ],
+        "medicine_suggestions": {
+            "bodrek": [
+                {
+                    "dosage": "1 tablet",
+                    "description": "1 kali sehari",
+                    "with_food": true,
+                    "count": 1
+                }
+            ],
+            "Antimo": [
+                {
+                    "dosage": "1",
+                    "description": "1 kali sehari",
+                    "with_food": true,
+                    "count": 1
+                }
+            ]
+        }
+    }
+]
